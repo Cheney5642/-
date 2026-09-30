@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html { background: #e9ece7; }
+body { margin: 0; color: #1f2933; font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif; }
+button, input, textarea, select { font: inherit; }
+button:focus-visible, a:focus-visible, textarea:focus-visible, select:focus-visible { outline: 3px solid rgba(49, 92, 75, .25); outline-offset: 2px; }
